@@ -20,10 +20,14 @@ FlameScope is in early stages of development and under constant change, so bugs 
 The quickest way to get started is to run the pre-built client bundle:
 
 ```bash
-$ git clone https://github.com/Netflix/flamescope
-$ cd flamescope
-$ pip install -r requirements.txt
-$ python run.py
+git clone https://github.com/Netflix/flamescope
+cd flamescope
+pip install -r requirements.txt
+brew install node
+npm install react-scripts@latest
+npm install
+npm run webpack
+python run.py
 ```
 
 (Note python3 is assumed, python2 _may_ work)

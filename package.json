@@ -7,7 +7,9 @@
     "webpack-server": "NODE_ENV=development webpack-dev-server --hot --mode development",
     "webpack-watch": "NODE_ENV=development webpack --watch --mode development",
     "webpack": "NODE_ENV=production webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
   },
   "repository": "https://github.com/Netflix/flamescope.git",
   "author": "Martin Spier <mspier@netflix.com>",
@@ -23,6 +25,7 @@
     "react-redux": "^7.2.5",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.1",
     "redux": "^4.1.1",
     "semantic-ui-less": "^2.4.1",
     "semantic-ui-react": "^2.0.4"
